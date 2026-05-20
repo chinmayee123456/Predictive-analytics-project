@@ -1,160 +1,78 @@
 # Predictive Analytics Using Historical Data
 
-## Project Overview
-
-This project uses Machine Learning techniques to predict student final grades using historical academic data.  
-A Linear Regression model is trained using student-related features such as study time, failures, absences, and previous grades.
-
-The project demonstrates:
-- Predictive analytics
-- Data preprocessing
-- Regression modeling
-- Model evaluation
-- Data visualization
+## Objective
+This project predicts student final grades using historical academic performance data and Machine Learning techniques.
 
 ---
 
-# Objective
-
-To build a predictive model that forecasts student final grades based on historical educational data.
-
----
-
-# Technologies Used
-
+## Tools & Technologies Used
 - Python
-- Pandas
-- NumPy
-- Matplotlib
-- Scikit-learn
+- pandas
+- numpy
+- matplotlib
+- scikit-learn
 - VS Code
 
 ---
 
-# Dataset Used
+## Dataset
+The project uses the Student Performance dataset from Kaggle.
 
-Student Performance Dataset
-
-The dataset contains student-related information such as:
-- Study time
-- Number of failures
+Dataset Features:
+- Study Time
+- Number of Failures
 - Absences
-- Parent education
-- Previous grades
-- Lifestyle and social factors
+- Parent Education
+- Previous Grades
+- Lifestyle Information
 
 ---
 
-# Machine Learning Model
+## Project Workflow
 
-Linear Regression
+1. Load student dataset
+2. Perform data preprocessing
+3. Select important features
+4. Split training and testing data
+5. Train Linear Regression model
+6. Predict student final grades
+7. Evaluate model accuracy
+8. Visualize prediction results
 
-Regression equation:
+---
+
+## Machine Learning Algorithm
+
+### Linear Regression
+
+Linear Regression predicts student final grades based on historical academic data.
+
+Regression Formula:
 
 \[
 y = mx + b
 \]
 
 Where:
-- y = predicted output
+- y = predicted value
 - m = slope
-- x = input variable
+- x = input feature
 - b = intercept
 
 ---
 
-# Features Used for Prediction
-
-| Feature | Description |
-|---|---|
-| studytime | Weekly study time |
-| failures | Number of past failures |
-| absences | Number of absences |
-| G1 | First period grade |
-| G2 | Second period grade |
-
-### Target Variable
-- G3 (Final Grade)
+## Features
+- Predictive analytics
+- Student performance prediction
+- Data preprocessing
+- Model evaluation
+- Scatter plot visualization
+- Line graph comparison
+- Machine learning implementation
 
 ---
 
-# Project Workflow
-
-1. Load historical dataset
-2. Clean and preprocess data
-3. Select important features
-4. Split training and testing data
-5. Train Linear Regression model
-6. Make predictions
-7. Evaluate model accuracy
-8. Visualize predictions using graphs
-
----
-
-# Data Preprocessing
-
-The following preprocessing steps were performed:
-
-- Removed missing values
-- Removed duplicate rows
-- Selected useful numeric features
-
----
-
-# Model Evaluation
-
-## Mean Squared Error (MSE)
-
-\[
-MSE = \frac{1}{n}\sum_{i=1}^{n}(y_i - \hat{y}_i)^2
-\]
-
-Lower MSE indicates better prediction accuracy.
-
----
-
-## R² Score
-
-R² Score measures how well the model predicts the target variable.
-
-- Closer to 1 → Better model
-- Closer to 0 → Poor model
-
----
-
-# Output Screenshots
-
-## 1. Terminal Output
-
-![Terminal Output](screenshots/terminal_output.png)
-
----
-
-## 2. Actual vs Predicted Grades Scatter Plot
-
-![Scatter Plot](screenshots/scatter_plot.png)
-
----
-
-## 3. Actual vs Predicted Grades Line Graph
-
-![Line Graph](screenshots/line_graph.png)
-
----
-
-# Sample Prediction
-
-Example student data:
-
-| studytime | failures | absences | G1 | G2 |
-|---|---|---|---|---|
-| 3 | 1 | 4 | 12 | 13 |
-
-The trained model predicts the final grade using the above inputs.
-
----
-
-# Project Structure
+## Project Structure
 
 ```plaintext
 PredictiveAnalyticsProject/
@@ -171,27 +89,45 @@ PredictiveAnalyticsProject/
 
 ---
 
-# Future Improvements
+## Installation
 
-- Add advanced machine learning models
-- Improve prediction accuracy
-- Create Streamlit web application
-- Deploy project online
-- Add interactive dashboard visualizations
+Install required libraries:
+
+```bash
+pip install pandas numpy matplotlib scikit-learn
+```
+
+---
+
+## Run the Project
+
+```bash
+python main.py
+```
 
 ---
 
-# Conclusion
+## Output Screenshots
 
-This project successfully demonstrates predictive analytics using historical student data.  
-The Linear Regression model predicts student final grades based on academic and behavioral features.
-
-The project helped in understanding:
-- Machine Learning workflows
-- Regression analysis
-- Data preprocessing
-- Predictive modeling
-- Forecasting techniques
-- Data visualization
+### Terminal Output
+![Terminal Output](screenshots/terminal_output.png)
 
 ---
+
+### Scatter Plot Graph
+![Scatter Plot](screenshots/scatter_plot.png)
+
+---
+
+### Line Graph Comparison
+![Line Graph](screenshots/line_graph.png)
+
+---
+
+## Results
+The project successfully predicts student final grades using Linear Regression and historical academic data. The model performance is evaluated using Mean Squared Error (MSE) and R² Score.
+
+---
+
+## Conclusion
+Successfully implemented predictive analytics using Linear Regression and visualized prediction results using Python and Machine Learning techniques.
