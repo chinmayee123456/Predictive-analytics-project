@@ -110,17 +110,23 @@ python main.py
 ## Output Screenshots
 
 ### Terminal Output
-![Terminal Output](screenshots/terminal_output.png)
+# Output Screenshots
+
+## Terminal Output
+
+![](./screenshots/terminal_output.png)
 
 ---
 
-### Scatter Plot Graph
-![Scatter Plot](screenshots/scatter_plot.png)
+## Scatter Plot Graph
+
+![](./screenshots/scatter_plot.png)
 
 ---
 
-### Line Graph Comparison
-![Line Graph](screenshots/line_graph.png)
+## Line Graph Comparison
+
+![](./screenshots/line_graph.png)
 
 ---
 
