@@ -109,25 +109,22 @@ python main.py
 
 ## Output Screenshots
 
+
 ### Terminal Output
-# Output Screenshots
 
-## Terminal Output
-
-![](./screenshots/terminal_output.png)
+<img width="800" alt="Terminal Output" src="screenshots/terminal_output.png">
 
 ---
 
-## Scatter Plot Graph
+### Scatter Plot Graph
 
-![](./screenshots/scatter_plot.png)
+<img width="800" alt="Scatter Plot" src="screenshots/scatter_plot.png">
 
 ---
 
-## Line Graph Comparison
+### Line Graph Comparison
 
-![](./screenshots/line_graph.png)
-
+<img width="800" alt="Line Graph" src="screenshots/line_graph.png">
 ---
 
 ## Results
